@@ -1,18 +1,37 @@
 body {
     background-color:#FFFFFF;
-    h1 {
-        color: #73B25A;
-    }
-    h2 {
-        color: #FFB4F8;
-    }
-    h3 {
-        color: #FFBEF9;
-    }
-    h4 {
-        color: #B26CAC;
-    }
-    button {
-        color: #73B25A;
+    .switcher {
+        text-align: center;
+        padding: 250px;
+        .header {
+            font-family: 'Pacifico', cursive;
+            font-size: 50px;
+        }
+        .subheader {
+            font-family: 'Merriweather Sans', sans-serif;
+        }
+        #aesthetics {
+            font-size: 25px;
+        }
+        #pleasant {
+            font-size: 20px;
+        }
+        #question {
+            font-size: 15px;
+        }
+        #lightBtn {
+            font-family: 'Merriweather Sans', sans-serif;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 25px;
+            outline: none;
+        }
+        #darkBtn {
+            font-family: 'Merriweather Sans', sans-serif;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 25px;
+            outline: none;
+        }
     }
 }

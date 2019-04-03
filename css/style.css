@@ -1,20 +1,39 @@
 body {
   background-color: #FFFFFF;
 }
-body h1 {
-  color: #73B25A;
+body .switcher {
+  text-align: center;
+  padding: 250px;
 }
-body h2 {
-  color: #FFB4F8;
+body .switcher .header {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
 }
-body h3 {
-  color: #FFBEF9;
+body .switcher .subheader {
+  font-family: "Merriweather Sans", sans-serif;
 }
-body h4 {
-  color: #B26CAC;
+body .switcher #aesthetics {
+  font-size: 25px;
 }
-body button {
-  color: #73B25A;
+body .switcher #pleasant {
+  font-size: 20px;
+}
+body .switcher #question {
+  font-size: 15px;
+}
+body .switcher #lightBtn {
+  font-family: "Merriweather Sans", sans-serif;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 25px;
+  outline: none;
+}
+body .switcher #darkBtn {
+  font-family: "Merriweather Sans", sans-serif;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 25px;
+  outline: none;
 }
 
 /*# sourceMappingURL=style.css.map */
